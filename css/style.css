@@ -1,0 +1,158 @@
+/* Header */
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 24px;
+    background-color: #798071;
+    max-height: 80px;
+    max-width: auto;
+}
+
+background-image {
+    max-width: 200px;
+    max-height: auto;
+}
+
+a.logo img {
+    max-width: 7%;
+    max-height: auto;
+    display:block;
+    padding: 10px;
+}
+
+.h1 {
+    font-family: 'Bowlby One', cursive;
+    font-size: 110px;
+    display: flex;
+    justify-content: center;
+    text-transform: lowercase;
+    letter-spacing: 6px;
+    
+}
+
+.h2 {
+    font-family: 'Caladea', serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.h3 {
+    font-family: 'Bowlby One', cursive;
+    font-size: 90px;
+    letter-spacing: 6px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 15% 25% 20% 20%;
+    height: 500px;
+}
+
+.grid-container img {
+    height: 500px;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #798071;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    justify-content: space-evenly;
+    padding: 1%;
+    margin: 0;
+}
+
+nav ul li a {
+    font-family: 'Bowlby One', cursive;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+a.profile img {
+    width: 110%;
+    height: auto;
+    display: block;
+    border-radius: 30px;
+}
+
+div.about-me {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+p.about-me-text {
+    font-family: 'Caladea', serif;
+    font-size: 30px;
+    padding: 60px 60px;
+
+}
+
+.button {
+    background-color: #798071;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 20px;
+    border-radius: 100%;
+  }
+  
+.work-grid-container {
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17% 17% 17%;
+    grid-template-rows: 50% 50%;
+    height: 700px;
+    
+
+}
+
+.work-grid-container img {
+    height: 300px;
+    border-radius: 30px;
+}
+
+div.work-names {
+    display: flex;
+    justify-content: space-around;
+    color: white
+}
+footer {
+    display: flex;
+    justify-content: space-even;
+    background-color: #798071;
+    max-height: 100px;
+    max-width: auto;
+    
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+}
+
+footer ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
