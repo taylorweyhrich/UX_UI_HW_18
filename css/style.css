@@ -136,6 +136,16 @@ div.work-names {
     justify-content: space-around;
     color: white
 }
+
+div.skill_names {
+    font-family: 'Caladea', serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
 footer {
     display: flex;
     justify-content: space-even;
@@ -157,10 +167,3 @@ footer ul li a {
     font-weight: 700;
 }
 
-@media only screen and (max-width: 600) {
-    body {
-        flex-direction: column;
-        
-
-    }
-}
