@@ -142,7 +142,7 @@ div.skill_names {
     font-size: 40px;
     letter-spacing: 4px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-transform: uppercase;
 }
 
