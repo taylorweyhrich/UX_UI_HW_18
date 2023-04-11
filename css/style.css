@@ -138,13 +138,11 @@ div.work-names {
 }
 
 div.skill_names {
-    font-family: 'Caladea', serif;
-    font-size: 40px;
-    letter-spacing: 4px;
     display: flex;
     justify-content: space-around;
-    text-transform: uppercase;
+    color: white
 }
+    
 
 footer {
     display: flex;
@@ -167,3 +165,8 @@ footer ul li a {
     font-weight: 700;
 }
 
+@media (min-width: 600px){
+    body {
+        background-color: #eee6de;
+    }
+}
